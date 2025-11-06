@@ -23,7 +23,10 @@ hr {
 
 button {
   display: inline-block;
-  margin: 0 100px;
+  background-color: rgb(40, 172, 208);
+  border: 0px;
+  margin: 0 5%;
+  padding: 0.5%;
 }
 
 .underline {
@@ -39,4 +42,8 @@ button {
   width: 100%;
   height: 2px;
   background-color: #007bff;
+}
+
+#banner {
+  background-color:#52bae7;
 }
