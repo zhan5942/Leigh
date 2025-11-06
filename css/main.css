@@ -29,6 +29,11 @@ button {
   padding: 0.5%;
 }
 
+button:hover {
+  color: white;
+  background-color: rgb(33, 113, 159);
+}
+
 .underline {
   position: relative;
   display: inline-block;
