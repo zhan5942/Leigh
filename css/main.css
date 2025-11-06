@@ -17,6 +17,11 @@ hr {
     margin: 10px auto;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .header_menu{
   text-align: center;
 }
