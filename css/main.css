@@ -13,6 +13,7 @@ hr {
     margin: 20px auto;
 }
 
-.banner {
-    text-align: center;
+.header_menu {
+  display: block;
+  margin: 0 auto;
 }
