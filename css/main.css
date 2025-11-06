@@ -16,7 +16,23 @@ hr {
 .header_menu{
   text-align: center;
 }
+
 button {
   display: inline-block;
   margin: 0 100px;
+}
+
+.underline {
+  position: relative;
+  display: inline-block;
+}
+
+.underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  background-color: #007bff;
 }
