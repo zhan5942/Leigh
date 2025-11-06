@@ -10,10 +10,13 @@ hr {
     border: none;
     height: 2px;
     background-color: black;
-    margin: 20px auto;
+    margin: 10px auto;
 }
 
-.header_menu {
-  display: block;
-  margin: 0 auto;
+.header_menu{
+  text-align: center;
+}
+button {
+  display: inline-block;
+  margin: 0 100px;
 }
