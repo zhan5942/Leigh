@@ -51,5 +51,5 @@ button:hover {
 }
 
 #banner {
-  background-color:#52bae7;
+  background-color:#52bae7 url(Background.jpeg); 
 }
