@@ -65,11 +65,11 @@ button:hover {
 }
 
 #banner {
-    padding: 2px;
     height: 115px;
     background:url(../images/leighisbannerbg.gif);
 }
 
 #content {
     background:url(../images/leighiscontentbg.png);
+    padding: 2px;
 }
