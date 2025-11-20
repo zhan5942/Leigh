@@ -65,7 +65,7 @@ button:hover {
 }
 
 #banner {
-    background:url(../images/leighisbannerbg.gif) repeat-y;
+    background:url(../images/leighisbannerbg.gif);
 }
 
 #content {
