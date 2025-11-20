@@ -65,6 +65,8 @@ button:hover {
 }
 
 #banner {
+    padding:5px
+    height: 107px;
     background:url(../images/leighisbannerbg.gif);
 }
 
