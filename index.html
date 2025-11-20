@@ -11,16 +11,29 @@
         <h1><a id = "logo" href = "index.html">Leighis</a></h1>
         <br />
         <button class = "header_menu" onclick = "window.location.href='background.html'">Background</button>
-        <button class = "header_menu" onclick = "window.location.href='tips.html'">Tips</button>
+        <div class = "dropdown">
+            <button class = "header_menu" id = "tips_button" onclick = "window.location.href='tips.html'">Tips<i class="fa-solid fa-caret-down"></i></button>
+            <div class="dropdown-content">
+                <button class = "header_menu" onclick = "window.location.href='tips.html#wellness'">Wellness</a>
+                <button class = "header_menu" onclick = "window.location.href='tips.html#health'">Health</a>
+            </div>
+        </div>
         <button class = "header_menu" onclick = "window.location.href='affirmations.html'">Affirmations</button>
         <button class = "header_menu" onclick = "window.location.href='recipes_menu.html'">Recipes</button>
         <button class = "header_menu" onclick = "window.location.href='mission.html'">Our Mission</button>
         <button class = "header_menu" onclick = "window.location.href='contact.html'">Contact Us</button>
     </div>
+    <br />
     <div id = "content">
         <h1>Welcome To Leighis!</h1>
         <h2>Sub Header</h2>
-        <p>Paragraph</p>
+        <p>Paragraph
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam est metus, dignissim et ligula vehicula, euismod malesuada turpis. Vivamus vel nunc non elit ornare viverra. Fusce odio lorem, cursus et hendrerit vitae, ornare eget ipsum. Maecenas id ipsum vitae eros ultricies elementum. Proin diam nisi, elementum at sem non, eleifend molestie quam. Duis ac porttitor mauris. Sed egestas quam a urna tincidunt tempor.
+
+Sed auctor porttitor ipsum quis ornare. Aenean nisl nisl, mattis in felis quis, hendrerit bibendum sem. Vestibulum tristique sed erat non rutrum. Morbi tempus lobortis erat. Nullam non laoreet leo. In vel neque at nunc imperdiet viverra. Donec hendrerit justo eu fringilla tempor. Aenean quis enim eu lacus commodo blandit nec a metus. Sed diam lectus, blandit nec turpis a, sollicitudin pulvinar quam. Suspendisse potenti.
+
+Donec ipsum libero, aliquet egestas libero aliquet, semper ornare ex. Donec nec quam scelerisque, hendrerit sem mollis, congue tortor. Pellentesque tempor quis odio at mollis. Sed condimentum elit sed tincidunt congue. Morbi vitae lacus varius, tincidunt dui sed, tempus tellus. Morbi vel sem condimentum orci tincidunt pulvinar id in nibh. In accumsan condimentum ante, nec gravida ante auctor eget. Nulla est eros, vestibulum eget iaculis ut, porttitor id neque. Ut non nunc id metus dignissim mattis id eget lacus. Nullam gravida, justo eget semper blandit, arcu lectus consectetur nisl, sed egestas purus diam nec odio. Curabitur dapibus, felis at imperdiet vulputate, ex ante molestie mi, ut vehicula felis massa sit amet libero. Integer gravida tempor sem, eget accumsan lorem convallis et. Fusce lacinia ante ultricies quam consectetur, at sodales metus congue. Nam tempus ut odio nec sollicitudin. Integer gravida pulvinar est, in placerat quam ultricies efficitur. Maecenas et ipsum auctor, porta ante sed, pellentesque leo. 
+        </p>
     </div>
 </body>
 </html>
