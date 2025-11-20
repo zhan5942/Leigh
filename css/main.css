@@ -51,6 +51,6 @@ button:hover {
 }
 
 #banner {
-    height: 500px;
-  background:url(/images/Background.jpg) no-repeat;
+    height: 50px;
+  background:url(/images/) no-repeat;
 }
