@@ -54,3 +54,7 @@ button:hover {
     height: 107px;
   background:url(../images/Background.jpeg) repeat-x;
 }
+
+#body {
+background:url(../images/Background.jpeg) repeat-x repeat-y;
+}
