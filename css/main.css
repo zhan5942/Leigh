@@ -51,5 +51,5 @@ button:hover {
 }
 
 #banner {
-  background-color:url(../images/Background.jpg) repeat x, repeat y;
+  background:url(../images/Background.jpg) repeat x, repeat y;
 }
