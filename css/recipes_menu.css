@@ -58,3 +58,36 @@ button:hover {
 #content {
     background:
 }
+
+.recipes-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.recipe-card {
+    background-color: #0e5977;   /* dark teal like screenshot */
+    width: 350px;
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.image-box {
+    width: 100%;
+    height: 220px;
+    background: white;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.sub-header {
+    margin: 10px 0 20px 0;
+}
+
+.info {
+    text-align: left;
+    font-size: 18px;
+    margin-left: 10px;
+}
