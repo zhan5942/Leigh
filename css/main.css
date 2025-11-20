@@ -52,5 +52,5 @@ button:hover {
 
 #banner {
     height: 100px;
-  background:url(/images/Background.jpg) no-repeat;
+  background:url(../images/Background.jpg) no-repeat;
 }
