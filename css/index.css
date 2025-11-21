@@ -65,6 +65,7 @@ button:hover {
 }
 
 #banner {
+    border-radius: 20px;
     height: 115px;
     background:url(../images/leighisbannerbg.gif);
 }
@@ -72,4 +73,5 @@ button:hover {
 #content {
     background:url(../images/leighiscontentbg.png);
     padding: 2px;
+    border-radius: 20px;
 }
