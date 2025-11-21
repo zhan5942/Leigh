@@ -72,6 +72,6 @@ button:hover {
 
 #content {
     background:url(../images/leighiscontentbg.png);
-    padding: 20px;
+    margin: 5px;
     border-radius: 20px;
 }
