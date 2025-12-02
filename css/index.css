@@ -67,6 +67,7 @@ button:hover {
 #banner {
     border-radius: 20px;
     background:url(../images/leighisbannerbg.gif) no-repeat 0 0;
+    margin: none; 
 }
 
 #content {
