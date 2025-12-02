@@ -24,7 +24,7 @@ a {
 
 button {
     display: inline-block;
-    background-color: rgb(40, 172, 208);
+    background-color: none;
     border: 0px;
     margin: 0 5%;
     padding: 0.5%;
