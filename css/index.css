@@ -22,16 +22,6 @@ a {
     text-align: center;
 }
 
-.dropdown-content{
-    position: absolute;
-    left: 21.43%;
-    top: 16.8%;
-}
-
-.dropdown:hover .dropdown-content{
-  display: block;
-}
-
 button {
     display: inline-block;
     background-color: rgb(40, 172, 208);
