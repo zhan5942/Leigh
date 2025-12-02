@@ -33,7 +33,6 @@ a {
     float: center;
     width: 10px; 
     height: 10px; 
-    object-fit: cover;
 }
 .header_menu{
     text-align: center;
