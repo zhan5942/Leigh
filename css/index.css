@@ -23,7 +23,7 @@ a {
 }
 
 button {
-    display: inline-block;
+    display: block;
     background-color: transparent;
     border: 0px;
     margin: 0 5%;
