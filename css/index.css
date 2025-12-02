@@ -29,6 +29,9 @@ a {
     color: black;
 }
 
+.logo img {
+    float: center;
+}
 .header_menu{
     text-align: center;
 }
