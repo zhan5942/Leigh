@@ -33,8 +33,22 @@ a {
     text-align: center;
 }
 
+.dropdown-content{
+    display: none;
+    padding: 5px 0px;
+    position: absolute;
+    left: 21.43%;
+    top: 16.8%;
+    background-color: rgb(40, 172, 208);
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
 button {
     display: inline-block;
+    float: left;
     background-color: transparent;
     border: 0px;
     margin: 0 5%;
@@ -45,6 +59,8 @@ button:hover {
     color: white;
     background-color: rgb(33, 113, 159);
 }
+
+
 
 .underline {
     position: relative;
