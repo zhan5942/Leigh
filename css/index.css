@@ -11,6 +11,12 @@ p {
     color: white;
 }
 
+title {
+    text-align: center;
+    font-family: "Ebrima", Ebrima;
+    color: white;
+}
+
 hr {
     border: none;
     height: 2px;
@@ -60,7 +66,6 @@ button:hover {
     background:url(../images/leighisbannerbg.gif) no-repeat 0 0; 
     margin: 5 px;
     font-family: "Ebrima", Ebrima;
-    color: white;
 }
 
 #content {
