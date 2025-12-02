@@ -30,8 +30,8 @@ a {
 }
 
 .logo img {
-   max-width: 20px;
-    max-height: 20px;
+   width: 50%;
+    height auto;
 }
 .header_menu{
     text-align: center;
