@@ -30,9 +30,10 @@ a {
 }
 
 .logo img {
-    float: center;
-    width: 10px; 
-    height: 10px; 
+   max-width: 300px; /* Maximum width */
+    max-height: 200px; /* Maximum height */
+    width: auto;
+    height: auto;
 }
 .header_menu{
     text-align: center;
