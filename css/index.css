@@ -31,6 +31,9 @@ a {
 
 .logo img {
     float: center;
+    width: 30px; 
+    height: 20px; 
+    object-fit: cover;
 }
 .header_menu{
     text-align: center;
