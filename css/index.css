@@ -29,9 +29,9 @@ a {
     color: black;
 }
 
-.logo img {
-   max-width: 20px;
-    max-height: 20px;
+.responsive {
+   width: 10%;
+    height: auto;
 }
 .header_menu{
     text-align: center;
