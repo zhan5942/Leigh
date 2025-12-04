@@ -11,6 +11,12 @@ p {
     color: white;
 }
 
+title {
+    text-align: center;
+    font-family: "Ebrima", Ebrima;
+    color: white;
+}
+
 hr {
     border: none;
     height: 2px;
@@ -42,9 +48,12 @@ a {
 
 .dropdown:hover .dropdown-content{
   display: block;
+}
+
 button {
     display: inline-block;
-    background-color: rgb(40, 172, 208);
+    float: left;
+    background-color: transparent;
     border: 0px;
     margin: 0 5%;
     padding: 0.5%;
@@ -54,6 +63,8 @@ button:hover {
     color: white;
     background-color: rgb(33, 113, 159);
 }
+
+
 
 .underline {
     position: relative;
@@ -71,10 +82,15 @@ button:hover {
 }
 
 #banner {
-    height: 107px;
-    background:url(../images/Background.jpeg) repeat-x;
+    border-radius: 20px;
+    background:url(../images/leighisbannerbg.gif) no-repeat 0 0; 
+    margin: 5 px;
+    font-family: "Ebrima", Ebrima;
 }
 
 #content {
-    background:
+    background:url(../images/leighiscontentbg.png);
+    margin: 5px;
+    border-radius: 20px;
+    padding: 2px;
 }
