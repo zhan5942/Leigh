@@ -8,16 +8,22 @@
 </head>
 <body>
     <div id = "banner">
-        <h1><a id = "logo" href = "index.html"><img src="images/LeighisLogo.png" class = "responsive"></a></h1>
-        <br />
+        <h1><a id = "logo" href = "index.html"><img src="images/LeighisLogo.png" class="responsive"></a></h1>
+        <br/>
         <button class = "header_menu" onclick = "window.location.href='background.html'">Background</button>
-        <button class = "header_menu" onclick = "window.location.href='tips.html'">Tips</button>
+        <div class = "dropdown">
+            <button class = "header_menu" id = "tips_button" onclick = "window.location.href='tips.html'">Tips<i class="fa-solid fa-caret-down"></i></button>
+            <div class="dropdown-content">
+                <button class = "header_menu" onclick = "window.location.href='tips.html#wellness'">Wellness</a></button>
+                <button class = "header_menu" onclick = "window.location.href='tips.html#health'">Health</a></button>
+            </div>
+	</div>
         <button class = "header_menu" onclick = "window.location.href='affirmations.html'">Affirmations</button>
         <button class = "header_menu" onclick = "window.location.href='recipes_menu.html'">Recipes</button>
         <button class = "header_menu" onclick = "window.location.href='mission.html'">Our Mission</button>
         <button class = "header_menu" onclick = "window.location.href='contact.html'">Contact Us</button>
-        <hr>
     </div>
+    <br />
     <div>
         <h1>Archieve</h1>
         <h2>
@@ -39,3 +45,4 @@
     </div>
 </body>
 </html>
+
