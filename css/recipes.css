@@ -98,6 +98,7 @@ button:hover {
     background:url(../images/leighisbannerbg.gif) no-repeat 0 0; 
     margin: 5 px;
     font-family: "Ebrima", Ebrima;
+    padding-bottom: 20px;
 }
 
 #content {
