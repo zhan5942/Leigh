@@ -1,9 +1,14 @@
 h1 {
     text-align: center;
+    font-family: "Ebrima", Ebrima;
+    color: white;
 }
 
 p {
     text-align: center;
+    font-family: "Ebrima", Ebrima;
+    font-weight: normal;
+    color: white;
 }
 
 hr {
@@ -18,10 +23,25 @@ a {
     color: black;
 }
 
+.responsive {
+   width: 10%;
+    height: auto;
+}
 .header_menu{
     text-align: center;
 }
 
+.dropdown-content{
+    display: none;
+    padding: 5px 0px;
+    position: absolute;
+    left: 21.43%;
+    top: 16.8%;
+    background-color: rgb(40, 172, 208);
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
 button {
     display: inline-block;
     background-color: rgb(40, 172, 208);
