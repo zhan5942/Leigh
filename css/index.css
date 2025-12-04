@@ -9,6 +9,7 @@ p {
     font-family: "Ebrima", Ebrima;
     font-weight: normal;
     color: black;
+    padding: 0 20px;
 }
 
 title {
@@ -26,6 +27,7 @@ hr {
 
 a {
     text-decoration: none;
+    padding: 0 20px; 
     color: black;
 }
 
