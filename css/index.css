@@ -4,12 +4,20 @@ h1 {
     color: white;
 }
 
+h2 {
+    text-align: left;
+    font-family: "Ebrima", Ebrima;
+    color: black;
+    padding: 0 40px;
+}
+
 p {
     text-align: center;
     font-family: "Ebrima", Ebrima;
     font-weight: normal;
     color: black;
-    padding: 0 20px;
+    padding: 0 40px;
+    padding-bottom: 10px;
 }
 
 title {
@@ -94,6 +102,7 @@ button:hover {
     background:url(../images/leighisbannerbg.gif) no-repeat 0 0; 
     margin: 5 px;
     font-family: "Ebrima", Ebrima;
+    padding-bottom: 20px;
 }
 
 #content {
