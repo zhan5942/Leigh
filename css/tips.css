@@ -37,12 +37,18 @@ a {
     text-align: center;
 }
 
+.dropdown {
+    position: relative;   
+    display: inline-block;
+}
+
 .dropdown-content{
     display: none;
     padding: 5px 0px;
     position: absolute;
-    left: 21.43%;
-    top: 16.8%;
+    left: 0;
+    top: 100%;
+    z-index: 9999;
     background-color: rgb(40, 172, 208);
 }
 
