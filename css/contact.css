@@ -108,6 +108,7 @@ button:hover {
     align-items: flex-start;
     gap: 80px;
     margin-top: 40px;
+    background:url(../images/leighiscontentbg.png);
 }
 
 /* Fake 3D portrait box like screenshot */
