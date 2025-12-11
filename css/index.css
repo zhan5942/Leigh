@@ -5,9 +5,9 @@ h1 {
 }
 
 h2 {
-    text-align: left;
+    text-align: center;
     font-family: "Ebrima", Ebrima;
-    color: black;
+    color: white;
     padding: 0 40px;
 }
 
@@ -15,7 +15,7 @@ p {
     text-align: center;
     font-family: "Ebrima", Ebrima;
     font-weight: normal;
-    color: black;
+    color: white;
     padding: 0 40px;
     padding-bottom: 10px;
     line-height: 2;
@@ -37,7 +37,7 @@ hr {
 a {
     text-decoration: none;
     padding: 0 20px; 
-    color: black;
+    color: white;
 }
 
 .responsive {
