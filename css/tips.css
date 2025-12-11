@@ -40,11 +40,14 @@ a {
 .dropdown {
     position: relative;   
     display: inline-block;
+    padding: 5px 5%;
 }
 
 .dropdown-content{
     display: none;
     padding: 5px 0px;
+    margin: 0px 40%;
+    width: 100px;
     position: absolute;
     left: 0;
     top: 100%;
