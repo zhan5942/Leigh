@@ -130,7 +130,10 @@ button:hover {
     align-items: center;
     color: white;
 }
-
+.responsive2 {
+   width: 10%;
+    height: auto;
+}
 /* Text section */
 .text-section {
     width: 350px;
