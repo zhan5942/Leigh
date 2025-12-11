@@ -30,7 +30,7 @@ a {
 }
 
 .responsive {
-   width: 25%;
+   width: 10%;
     height: auto;
 }
 .header_menu{
@@ -131,7 +131,7 @@ button:hover {
     color: white;
 }
 .responsive2 {
-   width: 10%;
+   width: 25%;
     height: auto;
 }
 /* Text section */
