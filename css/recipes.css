@@ -1,26 +1,26 @@
 h1 {
     text-align: center;
     font-family: "Ebrima", Ebrima;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 h2 {
     text-align: center;
     font-family: "Ebrima", Ebrima;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 p {
     text-align: center;
     font-family: "Ebrima", Ebrima;
     font-weight: normal;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 title {
     text-align: center;
     font-family: "Ebrima", Ebrima;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 hr {
@@ -33,6 +33,12 @@ hr {
 a {
     text-decoration: none;
     color: black;
+}
+
+img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .responsive {
@@ -78,8 +84,6 @@ button:hover {
     color: white;
     background-color: rgb(33, 113, 159);
 }
-
-
 
 .underline {
     position: relative;

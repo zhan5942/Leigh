@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/recipes_menu.css" rel="stylesheet" type="text/css" />
+    <link href="css/recipes.css" rel="stylesheet" type="text/css" />
     <title>Leighis</title>
 </head>
 <body>
@@ -24,41 +24,18 @@
         <button class = "header_menu" onclick = "window.location.href='contact.html'">Contact Us</button>
     </div>
     <br />
-    <div>
-        <h1>Recipes</h1>
-        <div class="recipes-container">
-
-    <div class="recipe-card">
-        <div class="image-box"><img src="images/recipe_img_1.png"></div>
-        <h2 class="sub-header"><a class = "recipe-name" onclick = "window.location.href='recipes_1.html'">Recipe 1</a></h2>
-        <p class="info">
-            Cook time:<br>
-            Yield:<br>
-        </p>
-    </div>
-
-    <div class="recipe-card">
-        <div class="image-box"><img src="images/recipe_img_2.png"></div>
-        <h2 class="sub-header"><a class = "recipe-name" onclick = "window.location.href='recipes_2.html'">Recipe 2</a></h2>
-        <p class="info">
-            Cook time:<br>
-            Yield:<br>
-        </p>
-    </div>
-
-    <div class="recipe-card">
-        <div class="image-box"><img src="images/recipe_img_3.png"></div>
-        <h2 class="sub-header"><a class = "recipe-name" onclick = "window.location.href='recipes_3.html'">Recipe 3</a></h2>
-        <p class="info">
-            Cook time:<br>
-            Yield:<br>
-        </p>
-    </div>
-
-</div>
-      
+    <div id = "body">
+        <img src = "images/recipe_img_1.png">
+        <br />
+        <h1>Recipe 1</h1>
+        <h2>Yield | Cooking Time | Rating</h2>
+        <div id = "ingredients">
+            <p>Ingredients</p>
+        </div>
+        <div id = "directions">
+            <p>Directions</p>
+        </div>
     </div>
 </body>
 </html>
-
 
