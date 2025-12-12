@@ -41,6 +41,16 @@ img{
     margin-right: auto;
 }
 
+#recipe_body{
+    background-color: rgb(82, 144, 69);
+    border-radius: 30px;
+    border-style: solid;
+    border-color:rgb(42, 81, 34);
+    border-width: 10px;
+    padding: 0.5% 0%;
+    margin: 0% 30%;
+}
+
 .responsive {
    width: 10%;
     height: auto;
@@ -88,6 +98,7 @@ button:hover {
 .underline {
     position: relative;
     display: inline-block;
+    margin-left: 45%
 }
 
 .underline::after {
@@ -97,7 +108,7 @@ button:hover {
     bottom: -5px;
     width: 100%;
     height: 2px;
-    background-color: #007bff;
+    background-color: rgb(42, 81, 34);
 }
 
 #banner {
@@ -115,3 +126,11 @@ button:hover {
     padding: 2px;
 }
 
+#ingredients{
+    margin-left: 39%;
+}
+
+#directions{
+    margin-left: 39%;
+    text-align: left;
+}
