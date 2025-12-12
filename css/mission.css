@@ -105,3 +105,17 @@ button:hover {
     padding: 2px;
 }
 
+#box{
+    width:84%; 
+    font-size: 40px;  
+    font-style: italic;  
+    background-color: rgb(82, 144, 69);
+    border-radius: 30px;
+    border-style: solid;
+    border-color:rgb(42, 81, 34);
+    border-width: 10px;
+    margin: 0% 3% auto;  
+    color:white;   
+    display:flex; 
+    padding: 5%;
+}
