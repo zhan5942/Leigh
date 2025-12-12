@@ -84,8 +84,6 @@ button:hover {
     background-color: rgb(33, 113, 159);
 }
 
-
-
 .underline {
     position: relative;
     display: inline-block;
@@ -116,3 +114,8 @@ button:hover {
     padding: 2px;
 }
 
+@media screen and (max-width: 800px) {
+  #banner{
+    height: 10px;
+  }
+}
