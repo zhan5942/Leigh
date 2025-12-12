@@ -98,7 +98,7 @@ button:hover {
 .underline {
     position: relative;
     display: inline-block;
-    margin-left: 45%
+    margin-left: 20%
 }
 
 .underline::after {
@@ -127,10 +127,10 @@ button:hover {
 }
 
 #ingredients{
-    margin-left: 39%;
+    margin-left: 20%;
 }
 
 #directions{
-    margin-left: 39%;
+    margin-left: 20%;
     text-align: left;
 }
