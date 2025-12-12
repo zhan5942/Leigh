@@ -41,8 +41,8 @@ a {
 }
 
 .responsive {
-   width: 10%;
-    height: auto;
+   width: 125px;
+
 }
 .header_menu{
     text-align: center;
@@ -114,8 +114,9 @@ button:hover {
     padding: 2px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   #banner{
-    height: 10px;
+    height: 50px;
   }
+  
 }
