@@ -111,7 +111,7 @@ button:hover {
     align-items: flex-start;
     gap: 80px;
     margin-top: 40px;
-    background:url(../images/leighiscontentbg.png);
+    background:url(../images/leighisbannerbg.gif) no-repeat 0 0;
 }
 
 /* Fake 3D portrait box like screenshot */
