@@ -1,7 +1,7 @@
 h1 {
     text-align: center;
     font-family: "Ebrima", Ebrima;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 p {
@@ -52,7 +52,7 @@ a {
     left: 0;
     top: 100%;
     z-index: 9999;
-    background-color: rgb(40, 172, 208);
+    background-color: rgb(130, 186, 138);
 }
 
 .dropdown:hover .dropdown-content{
@@ -70,10 +70,8 @@ button {
 
 button:hover {
     color: white;
-    background-color: rgb(33, 113, 159);
+    background-color: rgb(54, 159, 33);
 }
-
-
 
 .underline {
     position: relative;
