@@ -117,6 +117,7 @@ button:hover {
     background-color: #2d503b;
     width: 350px;
     padding: 20px;
+    margin-bottom: 10px;
     text-align: center;
     border-radius: 20px;
 }
@@ -174,7 +175,7 @@ button:hover {
 
 @media screen and (max-width: 1250px) {
   #banner{
-    height: 115px;
+    height: 135px;
   }
   button{
     text-align: left;
@@ -184,11 +185,12 @@ button:hover {
     display:none;
     position: absolute;
     border-radius: 10px;
-    width: 125px;
+    width: 165px;
     padding: 20px;
     top: 50px;
     left: 20px;
     background-color: rgb(186, 221, 191);
+    z-index: 100;
   }
   #header_buttons:hover{
     display:block;
@@ -199,4 +201,9 @@ button:hover {
   #menu:checked + label ~ #header_buttons{
     display:block;
   }
+  .recipes-container {
+    display: block;
+    margin: auto;
+    width: 350px;
+    }
 }
