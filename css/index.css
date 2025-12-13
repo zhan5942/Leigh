@@ -72,6 +72,8 @@ a {
 
 button {
     display: inline-block;
+    font-family: "Ebrima", Ebrima;
+    font-size: 17px;
     float: left;
     background-color: transparent;
     border: 0px;
@@ -114,9 +116,40 @@ button:hover {
     padding: 2px;
 }
 
-@media screen and (max-width: 1000px) {
+#menu{
+    display: none;
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    top: 20px;
+    left: 20px;
+}
+
+@media screen and (max-width: 1201px) {
   #banner{
-    height: 50px;
+    height: 115px;
   }
-  
+  #menu{
+    display:block;
+  }
+  button{
+    text-align: left;
+    margin: 15px;
+  }
+  #header_buttons{
+    display:none;
+    position: absolute;
+    width: 125px;
+    padding: 20px;
+    top: 75px;
+    background-color: rgb(186, 221, 191);
+  }
+  #menu:hover ~ #header_buttons{
+    display:block;
+  }
+  #header_buttons:hover{
+    display:block;
+  }
 }
