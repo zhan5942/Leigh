@@ -120,6 +120,7 @@ button:hover {
     display: none;
 }
 #menuToggle{
+    display: none;
     font-size: 30px;
     color:rgb(25, 71, 40);
     text-align: center;
@@ -145,13 +146,15 @@ button:hover {
     width: 125px;
     padding: 20px;
     top: 50px;
+    left: 20px;
     background-color: rgb(186, 221, 191);
   }
-  
   #header_buttons:hover{
     display:block;
   }
-
+  #menuToggle{
+    display:block;
+  }
   #menu:checked + label ~ #header_buttons{
     display:block;
   }
