@@ -30,9 +30,9 @@ a {
 }
 
 .responsive {
-   width: 10%;
-    height: auto;
+    width: 125px;
 }
+
 .header_menu{
     text-align: center;
 }
@@ -157,4 +157,46 @@ button:hover {
     margin-left: 10px;
 }
 
+#menu{
+    display: none;
+}
+#menuToggle{
+    display: none;
+    font-size: 30px;
+    color:rgb(25, 71, 40);
+    text-align: center;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    top: 20px;
+    left: 20px;
+}
 
+@media screen and (max-width: 1250px) {
+  #banner{
+    height: 115px;
+  }
+  button{
+    text-align: left;
+    margin: 15px;
+  }
+  #header_buttons{
+    display:none;
+    position: absolute;
+    border-radius: 10px;
+    width: 125px;
+    padding: 20px;
+    top: 50px;
+    left: 20px;
+    background-color: rgb(186, 221, 191);
+  }
+  #header_buttons:hover{
+    display:block;
+  }
+  #menuToggle{
+    display:block;
+  }
+  #menu:checked + label ~ #header_buttons{
+    display:block;
+  }
+}

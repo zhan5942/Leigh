@@ -41,9 +41,9 @@ a {
 }
 
 .responsive {
-   width: 125px;
-
+    width: 125px;
 }
+
 .header_menu{
     text-align: center;
 }
@@ -131,7 +131,7 @@ button:hover {
     left: 20px;
 }
 
-@media screen and (max-width: 1201px) {
+@media screen and (max-width: 1250px) {
   #banner{
     height: 115px;
   }
